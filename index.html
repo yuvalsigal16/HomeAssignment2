@@ -4,23 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="assets/style/home.css">
 </head>
 <body>
   <header>
-      <nav class="navbar">
-        <div class="logo">Yuval's Protfollo</div>
+    <nav class="navbar">
+      <a class="logo">Yuval's Portfolio</a>
         <ul class="nav-links">
-          <li><a href="index.html" class="header">Home</a></li>
-          <li><a href="about.html" class="header">About</a></li>
-          <li><a href="skills.html" class="header">Skills</a></li>
-          <li><a href="calculator.html" class="header">Calculator Project</a></li>
-        </ul>
-        <div class="hamburger">&#9776;</div>
-      </nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="project-calculator.html">Calculator Project</a>
+      </ul>
+      <div class="hamburger"></div>
+    </nav>
   </header>
-  <main></main>
-  <footer></footer>
- 
+  <main>
+    <section class="home-section">
+    <img class="img" src="assets/imgs/my profile.jpeg" alt="fitnes"  width="180" height="200"/>
+    <div class="text">
+      <h3>Hello, My Name Is</h3>
+      <h1>Yuval Sigal</h1>
+      <h4>Student - Information Systems</h4>
+    <button onclick="window.open('resume.pdf')">View Resume</button>
+    </div>
+    </section>
+  </main>
+  <footer class="footer"> <p>© 2025 Yuval Sigal. All rights reserved</p></footer> 
 </body>
 </html>
