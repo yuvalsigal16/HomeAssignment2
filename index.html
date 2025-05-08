@@ -16,8 +16,8 @@
         <a href="skills.html">Skills</a>
         <a href="project-calculator.html">Calculator Project</a>
       </ul>
-      <div class="hamburger"></div>
-    </nav>
+      <div class="hamburger" id="hamburger">&#9776;</div>   
+      </nav>
   </header>
   <main>
     <section class="home-section">
@@ -29,7 +29,31 @@
     <button onclick="window.open('resume.pdf')">View Resume</button>
     </div>
     </section>
+    <section class="call-to-action">
+      <div class="column">
+          <h2> links to my profile</h2>
+          <ul class="social-links">
+              <a href="https://www.linkedin.com/feed/" target="_blank"><img src="assets/imgs/LinkedIn_logo_initials.png" alt="linkedin"></a>
+              <a href="tel:0528011564"><img src="assets/imgs/phone.icon" alt="My Phone"></a>
+              <a href="mailto:yuvalsigal16@gmail.com"><img src="assets/imgs/email.icon.jpg" alt="My Email"></a>
+          </ul>
+      </div>
+      <div class="column">
+        <h2>My Project</h2>
+          <div class="project-images">
+              <a href="https://yuvalsigal16.github.io/home-assignment-1--yuval-sigal-/%D7%A8%D7%99%D7%95%20%D7%93%D7%94%20%D7%96'%D7%A0%D7%A8%D7%95.html">
+              <img src="assets/imgs/my project 1.png" alt="my first project">
+          </div>
+      </div>
+  </section>
   </main>
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
   <footer class="footer"> <p>© 2025 Yuval Sigal. All rights reserved</p></footer> 
 </body>
 </html>

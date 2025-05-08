@@ -1,6 +1,6 @@
 body{
-   background-color: whitesmoke;
-}
+   background-color: rgba(111, 108, 108, 0.384);}
+
 .navbar {
    display: flex;
      align-items: center;

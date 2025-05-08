@@ -1,6 +1,6 @@
 body{
-   background-color: whitesmoke;
-}
+   background-color: rgba(111, 108, 108, 0.384);}
+
 .about-section 
 {
    font-family: "Arial", serif;
@@ -12,7 +12,9 @@ body{
    margin: 0 auto;
    text-align: left;
    background-color: white;
-   border: 1px solid black;}
+   border: 1px solid black;
+   margin-top: 20px;}
+
 
 .about-section h1 {
    font-weight: bold;
@@ -60,10 +62,6 @@ body{
    align-items: center;
    font-size: 16px;
    margin: 20px;} 
-   
-.img {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 20px;
-   border-radius: 50%;}
+
+
+
