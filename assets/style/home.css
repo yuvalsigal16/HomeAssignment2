@@ -1,5 +1,4 @@
 
-
 .home-section {
    display: flex;
    padding: 10px;
@@ -80,10 +79,9 @@ h2 {
    height: 32px;
    border-radius: 5px;}
 
-.project {
+.project-images {
    background-color: white;
    border-radius: 8px;
-   padding: 20px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
 
 .project-images img {
@@ -91,22 +89,25 @@ h2 {
    height: auto;
    border-radius: 8px;
    transition: transform 0.3s;
-   margin-top: 15px}
+   margin-top: 10px}
 
 .project-images :hover {
    transform: scale(1.05);}
 
 @media(max-width: 768px){
 .main-nav {}
+
 .main-nav.open{}
+
 .main-nav a{}
-.main-nav a:last -child{}
+
+.main-nav a:last-child{}
+
 .hamburger-icon{
    display: block;}
 .top-bar{
    justify-content: space-between;}
 .hamburger-icon i.fa-bar{
    font-size: 24px;
-   color: white;} 
-}
+   color: white;} }
 
