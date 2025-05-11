@@ -94,20 +94,39 @@ h2 {
 .project-images :hover {
    transform: scale(1.05);}
 
-@media(max-width: 768px){
-.main-nav {}
+@media (max-width: 768px){
+   .navbar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;}
 
-.main-nav.open{}
+   .navbar.open .nav-links {
+         display: flex; }
 
-.main-nav a{}
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;}
 
-.main-nav a:last-child{}
+  .nav-links a {
+      padding: 10px;
+      text-align: center;
+      width: 100%;}
 
-.hamburger-icon{
-   display: block;}
-.top-bar{
-   justify-content: space-between;}
-.hamburger-icon i.fa-bar{
-   font-size: 24px;
-   color: white;} }
+  .nav-links a:last-child {
+      border-top: 1px solid #ccc;}
+
+  .hamburger {
+      display: block;
+      cursor: pointer;}
+
+  .hamburger i.fa-bars{
+      font-size: 24px;
+      color: white; }
+
+   .top-bar {
+      justify-content: space-between;}}
+
 
