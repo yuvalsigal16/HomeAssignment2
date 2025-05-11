@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Quote Calculator</title>
   <link rel="stylesheet" href="assets/style/calcualtor.css">
+  <link rel="stylesheet" href="assets/style/global.css">
+
 </head>
 <body>
   <header>
@@ -31,13 +33,11 @@
           </select>
           <label for="pages">Number of Pages:</label>
           <input type="number" id="pages" name="pages" min="1" max="10" value="1">
-
           <label for="custom-design">Custom Design Needed:</label>
           <select id="custom-design" name="custom-design">
-              <option value="no">No</option>
+              <option value="No">No</option>
               <option value="yes">Yes</option>
           </select>
-
           <div class="buttons">
               <button type="button" onclick="calculatePrice()">Calculate Price</button>
               <button type="reset">Reset</button>
@@ -54,11 +54,11 @@
         const numPages = document.getElementById("pages").value;
         const customDesign = document.getElementById("custom-design").value;
         let price = 0;
-        if (siteType === "business") 
+        if (siteType === "Business") 
         {price += 1000;} 
-        else if (siteType === "store") 
+        else if (siteType === "Store") 
         {price += 2000;}
-        else if (siteType === "blog")
+        else if (siteType === "Blog")
         {price += 1500;}
 
         if (numPages > 1)
@@ -72,7 +72,6 @@
         "Number of Pages: " + numPages + "<br>" + "<br>"+
         "Custom Design: " + customDesign + "<br>" + "<br>"+
         "Estimated Price: ₪" + price;}
-
         document.getElementById("project-form").addEventListener("reset", function() {
         document.getElementById("result").textContent = "";});
 </script>
