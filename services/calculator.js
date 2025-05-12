@@ -29,5 +29,6 @@
         "Custom Design: " + customDesign + "<br>" + "<br>"+
         "Estimated Price: ₪" + price;} 
 
-        {document.getElementById("project-form").addEventListener("reset", function(){
-        document.getElementById("result").textContent = "";});}
+        document.getElementById("project-form").onreset = function() {
+          document.getElementById("result").textContent = "";
+       }

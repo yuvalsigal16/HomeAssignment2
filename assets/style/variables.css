@@ -1,4 +1,13 @@
 /* variables.css */
 :root {
-  --primary-color: #ffffff;
+ --first-color: white;
+  --second-color: black;
+  --third-color: rgb(89, 87, 87);
+  --fourth-color: rgb(114, 111, 112); 
+  --fifth-color: rgb(231, 231, 231);
+  --sixth-color: #ccc;
+  --seventh-color: #4CAF50;
+  --eighth-color: #333;
+  --ninth-color: rgba(111, 108, 108, 0.384);
 }
+

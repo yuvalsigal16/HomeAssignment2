@@ -40,7 +40,6 @@ body{
       margin-bottom: 10px;
       color: white;}
   
-
 .footer {
    background-color: rgb(114, 111, 112);
    color: white;               
@@ -50,56 +49,62 @@ body{
    align-items: center;
    font-size: 16px;
    width: 100%;} 
-
    
    .navbar a:active {
    transform: scale(1.05);
    background-color: rgba(140, 171, 244, 0.747);}
 
 
-   .theme-toggle {
-      cursor: pointer;
-      font-size: 24px;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      position: absolute;
-      right: 20px;
-      top: 20px; }
-   
-   .moon-icon {
-      display: none;}
-   
+.theme-toggle {
+   cursor: pointer;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  }
+ 
+ .moon-icon {
+  width: 20px;
+  height: 20px;
+   display: none;}
+ 
+  .sun-icon {
+   width: 20px;
+   height: 20px;}
+ 
+ body.dark-mode .logo {
+   color: white;
+   background-color: rgb(89, 87, 87);}
+ 
+ body.dark-mode .moon-icon {
+   display: inline;
+   width: 20px;
+   height: 20px;}
+
    body.dark-mode .sun-icon {
-      display: none;}
+    display: none;
+    width: 20px;
+    height: 20px;}
+ 
+ body.dark-mode {
+   background-color: rgb(89, 87, 87);
+   color:black}
+ 
+ body.dark-mode .navbar {
+   background-color: black}
+ 
+ body.dark-mode .nav-links a {
+   color:white;
+   background-color:rgb(89, 87, 87);}
 
-   body.dark-mode .logo {
-      color: white;
-      background-color: rgb(89, 87, 87);}
-
-   body.dark-mode .moon-icon {
-      display: inline;}
-   
-   body.dark-mode {
-      background-color: rgb(89, 87, 87);
-      color:white}
-   
-   body.dark-mode .navbar {
-      background-color: black
-   }
-   
-   body.dark-mode .nav-links a {
-      color: white;
-      background-color:rgb(89, 87, 87);
-   }
-   
-   body.dark-mode .nav-links a:active {
-      background-color: rgb(89, 87, 87);
-   }
-   
-   body.dark-mode .footer {
-      background-color: black
-   }
+ body.dark-mode .nav-links a:active {
+   background-color: rgb(89, 87, 87);}
+ 
+ body.dark-mode .footer {
+   background-color: black}
 
    @media (max-width: 768px){
       .navbar {
@@ -154,3 +159,4 @@ body{
          width: 100%;
          text-align: center;}
          }
+
