@@ -1,9 +1,8 @@
 
-.about-section 
-{
+.about-section {
    font-family: "Arial", serif;
    color: black;
-   padding: 20px;
+   padding: 15px;
    max-width: 800px;
    max-height: 400px;
    margin: 0 auto;

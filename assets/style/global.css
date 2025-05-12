@@ -4,30 +4,42 @@ body{
 .navbar {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
    background-color: rgb(114, 111, 112);
    height: 100px;
    padding: 0 30px;
    position: relative;}
 
 .navbar a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 10px;
     font-size: 24px;     
     font-weight: bold;
     align-items: center;
     gap: 30px;
-    left: 60%;}
+    left: 60%;
+    background-color:rgba(245, 245, 245, 0.747);
+    padding: 5px;
+    border-radius: 3px;}
  
-.logo {
-    color: white;
+.navbar a.logo {
+   color: black;
    font-size: 24px;
    font-weight: bold;
    margin: 5px;
-   justify-content: center;
-   align-items: center;
-   gap: 30px;}
+   left: 60px;
+   position: absolute;
+   background-color:rgba(245, 245, 245, 0.747);
+   border-radius: 3px;}
+
+   .hamburger {
+      display: none;
+      cursor: pointer;
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: white;}
+  
 
 .footer {
    background-color: rgb(114, 111, 112);
@@ -38,3 +50,63 @@ body{
    align-items: center;
    font-size: 16px;
    width: 100%;} 
+
+   
+   .navbar a:active {
+   transform: scale(1.05);
+   background-color: rgba(140, 171, 244, 0.747);}
+
+
+   @media (max-width: 768px){
+      .navbar {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         background-color: rgb(114, 111, 112);
+         padding: 10px;}
+     
+     .navbar a .logo {
+         color: white;
+         font-size: 24px;
+         font-weight: bold;
+         margin-bottom: 10px; 
+         text-decoration: none;}
+     
+     .navbar a {
+         color: white;
+         text-decoration: none;
+         font-size: 20px;
+         font-weight: bold;
+         margin: 5px 0;
+         display: block;
+         text-align: center;}
+     
+     .hamburger {
+         display: block;
+         cursor: pointer;
+         font-size: 28px;
+         margin-bottom: 10px;
+         color: white;}
+     
+     .nav-links {
+         display: none;
+         flex-direction: column;
+         width: 100%;
+         align-items: center;
+         right: 0;}
+
+     
+     .navbar.open .nav-links {
+         display: flex;}
+
+      .footer {
+         background-color: rgb(114, 111, 112);
+         color: white;
+         height: 80px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 14px;
+         width: 100%;
+         text-align: center;}
+         }
