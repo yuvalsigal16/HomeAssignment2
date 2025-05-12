@@ -112,7 +112,8 @@ body{
          flex-direction: column;
          align-items: center;
          background-color: rgb(114, 111, 112);
-         padding: 10px;}
+         padding: 10px;
+        width: 95%;}
      
      .navbar a .logo {
          color: white;
@@ -140,7 +141,7 @@ body{
      .nav-links {
          display: none;
          flex-direction: column;
-         width: 100%;
+         width: 90%;
          align-items: center;
          right: 0;}
 
@@ -156,7 +157,19 @@ body{
          justify-content: center;
          align-items: center;
          font-size: 14px;
-         width: 100%;
+         width: 95%;
          text-align: center;}
+
+      .theme-toggle {
+           cursor: pointer;
+           font-size: 24px;
+           display: flex;
+           align-items: center;
+           gap: 5px;
+           position: absolute;
+           right: 20px;
+           top: 20px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  }
          }
+
 
