@@ -57,6 +57,50 @@ body{
    background-color: rgba(140, 171, 244, 0.747);}
 
 
+   .theme-toggle {
+      cursor: pointer;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      position: absolute;
+      right: 20px;
+      top: 20px; }
+   
+   .moon-icon {
+      display: none;}
+   
+   body.dark-mode .sun-icon {
+      display: none;}
+
+   body.dark-mode .logo {
+      color: white;
+      background-color: rgb(89, 87, 87);}
+
+   body.dark-mode .moon-icon {
+      display: inline;}
+   
+   body.dark-mode {
+      background-color: rgb(89, 87, 87);
+      color:white}
+   
+   body.dark-mode .navbar {
+      background-color: black
+   }
+   
+   body.dark-mode .nav-links a {
+      color: white;
+      background-color:rgb(89, 87, 87);
+   }
+   
+   body.dark-mode .nav-links a:active {
+      background-color: rgb(89, 87, 87);
+   }
+   
+   body.dark-mode .footer {
+      background-color: black
+   }
+
    @media (max-width: 768px){
       .navbar {
          display: flex;

@@ -10,7 +10,8 @@
    background-color: white;
    border: 1px solid black;
    margin-top: 20px;
-   margin-bottom: 20px;}
+   margin-bottom: 20px;
+   border-radius: 5px;}
 
 .about-section h1 {
    font-weight: bold;
