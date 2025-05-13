@@ -50,9 +50,9 @@ body{
    font-size: 16px;
    width: 100%;} 
    
-   .navbar a:active {
-   transform: scale(1.05);
-   background-color: rgba(140, 171, 244, 0.747);}
+  .navbar a:active {
+    transform: scale(1.05);
+    background-color: rgba(140, 171, 244, 0.747);}
 
 
 .theme-toggle {
@@ -111,16 +111,19 @@ body{
          display: flex;
          flex-direction: column;
          align-items: center;
+         justify-content: center;
          background-color: rgb(114, 111, 112);
          padding: 10px;
-        width: 95%;}
+         margin: 10px;
+         width: 90%;}
      
      .navbar a .logo {
          color: white;
          font-size: 24px;
          font-weight: bold;
          margin-bottom: 10px; 
-         text-decoration: none;}
+         text-decoration: none;
+        margin-right: 5%;}
      
      .navbar a {
          color: white;
@@ -136,7 +139,8 @@ body{
          cursor: pointer;
          font-size: 28px;
          margin-bottom: 10px;
-         color: white;}
+         color: white;
+        margin-left: 5%;}
      
      .nav-links {
          display: none;
@@ -145,7 +149,6 @@ body{
          align-items: center;
          right: 0;}
 
-     
      .navbar.open .nav-links {
          display: flex;}
 
@@ -157,8 +160,8 @@ body{
          justify-content: center;
          align-items: center;
          font-size: 14px;
-         width: 95%;
-         text-align: center;}
+         width: 90%;
+         margin-left: 5%;}
 
       .theme-toggle {
            cursor: pointer;
@@ -169,7 +172,9 @@ body{
            position: absolute;
            right: 20px;
            top: 20px;
-           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  }
-         }
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+           margin-right: 5%;
+           margin-top: 2%;}
+      }    
 
 
