@@ -1,13 +1,16 @@
 /* variables.css */
 :root {
- --first-color: white;
-  --second-color: black;
-  --third-color: rgb(89, 87, 87);
-  --fourth-color: rgb(114, 111, 112); 
-  --fifth-color: rgb(231, 231, 231);
-  --sixth-color: #ccc;
-  --seventh-color: #4CAF50;
-  --eighth-color: #333;
-  --ninth-color: rgba(111, 108, 108, 0.384);
+--white-color: white;
+--black-color: black;
+--gray1-color: rgb(89, 87, 87);
+--gray2-color: rgb(114, 111, 112); 
+--white1-color: rgb(231, 231, 231);
+--gray3-color: #ccc;
+--green-color: #4CAF50;
+--darkgray-color: #333;
+--darkgray1-color: rgba(111, 108, 108, 0.384);
+--black1-color: rgba(0, 0, 0, 0.1);
+--blue-color: rgba(140, 171, 244, 0.747);
+--gray4-color: rgba(245, 245, 245, 0.747);
 }
 

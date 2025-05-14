@@ -1,17 +1,17 @@
 body{
-   background-color: rgba(111, 108, 108, 0.384);}
+   background-color: var(--darkgray1-color);}
    
 .navbar {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: rgb(114, 111, 112);
+   background-color:var(--gray2-color);
    height: 100px;
    padding: 0 30px;
    position: relative;}
 
 .navbar a {
-    color: black;
+    color:var(--black-color);
     text-decoration: none;
     margin: 10px;
     font-size: 24px;     
@@ -19,18 +19,18 @@ body{
     align-items: center;
     gap: 30px;
     left: 60%;
-    background-color:rgba(245, 245, 245, 0.747);
+    background-color: var(--gray4-color);
     padding: 5px;
     border-radius: 3px;}
  
 .navbar a.logo {
-   color: black;
+   color: var(--black-color);
    font-size: 24px;
    font-weight: bold;
    margin: 5px;
    left: 60px;
    position: absolute;
-   background-color:rgba(245, 245, 245, 0.747);
+   background-color:var(--gray4-color);
    border-radius: 3px;}
 
    .hamburger {
@@ -38,11 +38,11 @@ body{
       cursor: pointer;
       font-size: 28px;
       margin-bottom: 10px;
-      color: white;}
+      color: var(--white-color);}
   
 .footer {
-   background-color: rgb(114, 111, 112);
-   color: white;               
+   background-color: var(--gray2-color);
+   color: var(--black-color);             
    height: 100px;               
    display: flex;               
    justify-content: center; 
@@ -52,7 +52,7 @@ body{
    
   .navbar a:active {
     transform: scale(1.05);
-    background-color: rgba(140, 171, 244, 0.747);}
+    background-color: var(--blue-color);}
 
 
 .theme-toggle {
@@ -64,7 +64,7 @@ body{
    position: absolute;
    right: 20px;
    top: 20px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  }
+   box-shadow: 0 4px 8px var(--black1-color);  }
  
  .moon-icon {
   width: 20px;
@@ -76,8 +76,8 @@ body{
    height: 20px;}
  
  body.dark-mode .logo {
-   color: white;
-   background-color: rgb(89, 87, 87);}
+   color: var(--white-color);
+   background-color: var(--gray1-color);}
  
  body.dark-mode .moon-icon {
    display: inline;
@@ -90,21 +90,22 @@ body{
     height: 20px;}
  
  body.dark-mode {
-   background-color: rgb(89, 87, 87);
-   color:black}
+   background-color: var(--gray1-color);
+   color:var(--white-color)}
  
  body.dark-mode .navbar {
-   background-color: black}
+   background-color: var(--black-color)}
  
  body.dark-mode .nav-links a {
-   color:white;
-   background-color:rgb(89, 87, 87);}
+   color: var(--white-colorr);
+   background-color: var(--gray1-color);}
 
  body.dark-mode .nav-links a:active {
-   background-color: rgb(89, 87, 87);}
+   background-color:  var(--gray1-color);}
  
  body.dark-mode .footer {
-   background-color: black}
+   background-color: var(--black-color);
+   color: var(--white-color);}
 
    @media (max-width: 768px){
       .navbar {
@@ -112,13 +113,13 @@ body{
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         background-color: rgb(114, 111, 112);
+         background-color:var(--gray2-color);
          padding: 10px;
          margin: 10px;
          width: 90%;}
      
      .navbar a .logo {
-         color: white;
+         color: var(--white-color);
          font-size: 24px;
          font-weight: bold;
          margin-bottom: 10px; 
@@ -126,7 +127,7 @@ body{
         margin-right: 5%;}
      
      .navbar a {
-         color: white;
+         color: var(--white-color);
          text-decoration: none;
          font-size: 20px;
          font-weight: bold;
@@ -139,7 +140,7 @@ body{
          cursor: pointer;
          font-size: 28px;
          margin-bottom: 10px;
-         color: white;
+         color: var(--white-color);
         margin-left: 5%;}
      
      .nav-links {
@@ -153,8 +154,8 @@ body{
          display: flex;}
 
       .footer {
-         background-color: rgb(114, 111, 112);
-         color: white;
+         background-color:var(--gray2-color);
+         color: var(--white-color);
          height: 80px;
          display: flex;
          justify-content: center;
@@ -172,7 +173,7 @@ body{
            position: absolute;
            right: 20px;
            top: 20px;
-           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+           box-shadow: 0 4px 8px var(--black1-color);
            margin-right: 5%;
            margin-top: 2%;}
       }    

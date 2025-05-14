@@ -9,15 +9,15 @@
      align-items: center;
      text-align: center;
      justify-content: center;
-     background-color: white;
+     background-color: var(--white-color);
      flex-direction: row;
      gap: 20px; 
-     border: 1px solid black;
+     border: 1px solid var(--black-color);
      border-radius: 5px;
      margin-top: 20px;}
 
 .hero-section:active {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);}
+    box-shadow: 0 8px 16px var(--black1-color);}
 
 .hero-section img{
     width: 100%;
@@ -32,7 +32,7 @@
    flex-direction: column;
    text-align: center;
    font-family: "Arial", sans-serif;
-   color: black;
+   color: var(--black-color);
    justify-content: center;
    margin: 20px;}
 
@@ -46,20 +46,20 @@
    margin: 0 auto;}
    
 .column {
-   background-color: white;
+   background-color: var(--white-color);
    border-radius: 5px;
    padding: 15px;
-   border: 1px solid black; 
+   border: 1px solid var(--black-color); 
    flex: 1;}
 
 h2{
    font-size: 24px;
    margin: 20px;
-   color: black;;
+   color: var(--black-color);
    display: inline-block;}
 
 .social-links {
-   background-color: white;
+   background-color: var(--white-color);
    padding: 5px;
    display: flex;
    flex-direction: column;
@@ -69,7 +69,7 @@ h2{
    display: flex;
     align-items: center;
     gap: 10px; 
-    color: black;
+    color:var(--black-color);
     text-decoration: none;
     font-size: 14px;
     margin-bottom: 10px;}
@@ -78,15 +78,15 @@ h2{
    transform: scale(1.05);}
 
 .social-links img {
-   background-color: white;
+   background-color: var(--white-color);
    width: 32px;
    height: 32px;
    border-radius: 5px;}
 
 .project-images {
-   background-color: white;
+   background-color: var(--white-color);
    border-radius: 8px;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+   box-shadow: 0 2px 5px var(--black1-color);}
 
 .project-images :active {
    transform: scale(1.05);}
@@ -100,7 +100,7 @@ h2{
 
 .project p{
    font-size: 16px;
-   color: black;
+   color: var(--black-color);
    margin: 10px 0;}
 
 
@@ -125,7 +125,7 @@ h2{
    .hero-section .text {
       text-align: center;
       font-family: "Arial", sans-serif;
-      color: black;
+      color: var(--black-color);
       margin: 10px 0;}
 
    .call-to-action {
@@ -136,14 +136,14 @@ h2{
       width: 95%;}
 
    .column {
-      background-color: white;
+      background-color: var(--white-color);
       border-radius: 5px;
       padding: 15px;
-      border: 1px solid black;
+      border: 1px solid var(--black-color);
       width: 90%;  }
 
    .social-links {
-      background-color: white;
+      background-color: var(--white-color);
       padding: 5px;
       display: flex;
       flex-direction: column;
@@ -153,7 +153,7 @@ h2{
       display: flex;
       align-items: center;
       gap: 10px;
-      color: black;
+      color: var(--black-color);
       text-decoration: none;
       font-size: 14px; }
 
@@ -162,8 +162,7 @@ h2{
       height: 24px; }
 
    .project-images {
-      background-color: white;
-      border-radius: 8px;
+      background-color: var(--white-color);
       width: 90%;
       margin-bottom: 15px; }
 
@@ -175,7 +174,7 @@ h2{
 
    .project p{
       font-size: 16px;
-      color: black;
+      color: var(--black-color);
       margin: 10px 0;}
    }
 
