@@ -9,7 +9,7 @@
      align-items: center;
      text-align: center;
      justify-content: center;
-     background-color: var(--white-color);
+     background-color:var(--white-color);
      flex-direction: row;
      gap: 20px; 
      border: 1px solid var(--black-color);
@@ -27,14 +27,25 @@
     flex-direction: row; 
     margin: 20px;}
 
-.hero-section text{
+.hero-section .text{
    display: flex;
    flex-direction: column;
    text-align: center;
-   font-family: "Arial", sans-serif;
-   color: var(--black-color);
+   color:var(--black-color);
    justify-content: center;
    margin: 20px;}
+
+h3{
+   padding: 10px;
+   margin: 0px;}
+
+h1{
+   padding: 10px;
+   margin: 0px;}
+
+h4{
+   padding: 10px;
+   margin: 2px; }
 
 .call-to-action {
    display: flex;
@@ -46,7 +57,7 @@
    margin: 0 auto;}
    
 .column {
-   background-color: var(--white-color);
+   background-color:var(--white-color);
    border-radius: 5px;
    padding: 15px;
    border: 1px solid var(--black-color); 
@@ -59,7 +70,7 @@ h2{
    display: inline-block;}
 
 .social-links {
-   background-color: var(--white-color);
+   background-color:var(--white-color);
    padding: 5px;
    display: flex;
    flex-direction: column;
@@ -78,13 +89,13 @@ h2{
    transform: scale(1.05);}
 
 .social-links img {
-   background-color: var(--white-color);
+   background-color:var(--white-color);
    width: 32px;
    height: 32px;
    border-radius: 5px;}
 
 .project-images {
-   background-color: var(--white-color);
+   background-color:var(--white-color);
    border-radius: 8px;
    box-shadow: 0 2px 5px var(--black1-color);}
 
@@ -98,7 +109,7 @@ h2{
    transition: transform 0.3s;
    margin-top: 10px}
 
-.project p{
+.column .project-images p{
    font-size: 16px;
    color: var(--black-color);
    margin: 10px 0;}
@@ -125,7 +136,7 @@ h2{
    .hero-section .text {
       text-align: center;
       font-family: "Arial", sans-serif;
-      color: var(--black-color);
+      color:var(--black-color);
       margin: 10px 0;}
 
    .call-to-action {
@@ -136,14 +147,14 @@ h2{
       width: 95%;}
 
    .column {
-      background-color: var(--white-color);
+      background-color:var(--white-color);
       border-radius: 5px;
       padding: 15px;
       border: 1px solid var(--black-color);
       width: 90%;  }
 
    .social-links {
-      background-color: var(--white-color);
+      background-color:var(--white-color);
       padding: 5px;
       display: flex;
       flex-direction: column;
@@ -153,7 +164,7 @@ h2{
       display: flex;
       align-items: center;
       gap: 10px;
-      color: var(--black-color);
+      color:var(--black-color);
       text-decoration: none;
       font-size: 14px; }
 
@@ -162,7 +173,7 @@ h2{
       height: 24px; }
 
    .project-images {
-      background-color: var(--white-color);
+      background-color:var(--white-color);
       width: 90%;
       margin-bottom: 15px; }
 
@@ -172,9 +183,9 @@ h2{
       border-radius: 8px;
       transition: transform 0.3s;}
 
-   .project p{
+   .column .project-images p{
       font-size: 16px;
-      color: var(--black-color);
+      color:var(--black-color);
       margin: 10px 0;}
    }
 
