@@ -1,6 +1,8 @@
  body{
-   background-color: var(--darkgray1-color);}
-   
+   background-color: var(--darkgray1-color);
+   font-family: var(--font-family);
+}
+
  .navbar {
    display: flex;
    align-items: center;
@@ -172,8 +174,7 @@
          justify-content: center;
          align-items: center;
          font-size: 14px;
-         width: 90%;
-         margin-left: 5%;}
+         width: 100%;}
 
       .theme-toggle {
            cursor: pointer;
@@ -191,8 +192,7 @@
       body.dark-mode .nav-links a {
            color: var(--black-color);
            background-color:var(--white-color);}
-
-           
-      }    
+          
+          }    
 
 

@@ -1,5 +1,6 @@
 
 .hero-section {
+     font-family: var(--font-family);
      max-height: none;
      padding: 10px;
      display: flex;
@@ -48,6 +49,7 @@ h4{
    margin: 2px; }
 
 .call-to-action {
+   font-family: var(--font-family);
    display: flex;
    gap: 20px;
    padding: 20px;
@@ -183,7 +185,7 @@ h2{
       border-radius: 8px;
       transition: transform 0.3s;}
 
-   .column .project-images p{
+   .project p{
       font-size: 16px;
       color:var(--black-color);
       margin: 10px 0;}
