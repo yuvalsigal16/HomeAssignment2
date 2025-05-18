@@ -29,6 +29,7 @@
     margin: 20px;}
 
 .hero-section .text{
+   font-family: var(--font-family);
    display: flex;
    flex-direction: column;
    text-align: center;
@@ -36,15 +37,18 @@
    justify-content: center;
    margin: 20px;}
 
-h3{
+.hero-section h3{ 
+   font-size: 20px;
    padding: 10px;
    margin: 0px;}
 
-h1{
+.hero-section h1{
+   font-size: 30px;
    padding: 10px;
    margin: 0px;}
 
-h4{
+.hero-section h4{
+   font-size: 18px;
    padding: 10px;
    margin: 2px; }
 
@@ -65,8 +69,8 @@ h4{
    border: 1px solid var(--black-color); 
    flex: 1;}
 
-h2{
-   font-size: 24px;
+.column h2 {
+   font-size: 30px;
    margin: 20px;
    color: var(--black-color);
    display: inline-block;}
@@ -111,7 +115,8 @@ h2{
    transition: transform 0.3s;
    margin-top: 10px}
 
-.column .project-images p{
+.column .project-images p {
+   font-family: var(--font-family);
    font-size: 16px;
    color: var(--black-color);
    margin: 10px 0;}
