@@ -43,6 +43,15 @@
   border-radius: 8px;
   float: right;}
 
+.resume{
+   display: flex;
+   font-family: var(--font-family);
+   padding: 3px;
+   margin: 0 auto;
+   width: 30%;
+   font-weight: bold;
+   color:var(--black-color); }
+
 @media only screen and (max-width: 768px) {
 
 .skiils-section{
