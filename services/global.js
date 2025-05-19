@@ -2,21 +2,21 @@
 document.querySelector("#hamburger").onclick = () => 
 document.querySelector(".navbar").classList.toggle("open");
 
-const themeIcons = document.querySelectorAll(".theme-toggle img");
-const body = document.body;
+var themeIcons = document.querySelectorAll(".theme-toggle img");
+   var body = document.body;
 
-if (localStorage.getItem("theme") === "dark") {
-  body.classList.add("dark-mode");
-}
+        if (localStorage.getItem("theme") === "dark") {
+            body.className = "dark-mode";
+        }
 
-themeIcons.forEach((icon) => {
-  icon.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
-
-    if (body.classList.contains("dark-mode")) {
-      localStorage.setItem("theme", "dark");
-    } else {
-      localStorage.setItem("theme", "light");
-    }
-  });
-});
+        for (var i = 0; i < themeIcons.length; i++) {
+            themeIcons[i].addEventListener("click", function () {
+                if (body.className === "dark-mode") {
+                    body.className = "";
+                    localStorage.setItem("theme", "light");
+                } else {
+                    body.className = "dark-mode";
+                    localStorage.setItem("theme", "dark");
+                }
+            });
+        }
