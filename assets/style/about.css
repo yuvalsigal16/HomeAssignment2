@@ -15,11 +15,11 @@
 
 .about-section h1 {
    font-weight: bold;
-   font-size: 24px;
+   font-size: var(--font-size2);
    border: none;}
 
 .about-section p {
-   font-size: 18px;
+   font-size: var(--font-size6);
    line-height: 1.5;}
 
 

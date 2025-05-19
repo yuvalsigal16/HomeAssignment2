@@ -49,12 +49,12 @@
          border: none;
          background-color: var(--green-color);
          color: var(--white-color);
-         font-size: 16px;
+         font-size: var(--font-size);
          cursor: pointer;}
      
        #result {
          margin-top: 20px;
-         font-size: 18px;
+         font-size: var(--font-size6);
          color:var(--black-color);
          background-color: var(--white1-color);
          padding: 10px;

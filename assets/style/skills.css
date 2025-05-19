@@ -17,21 +17,21 @@
 .h1{
    font-family: var(--font-family);
    color: var(--black-color);
-   font-size: 24px;
+   font-size: var(--font-size2);
    font-weight: bold;
    text-align: left;
    margin-bottom: 10px;}
 
 
 .skills-list{
-   font-size: 16px;
+   font-size: var(--font-size);
    line-height: 1.5;
    text-align: left;}
 
 .a{
    font-family: var(--font-family);
    color: var(--black-color);
-   font-size: 16px;
+   font-size: var(--font-size);
    font-weight: bold;}
 
 .skills-image {
@@ -64,7 +64,7 @@
    margin-top: 10px;
    font-family: var(--font-family);
    color: var(--black-color);
-   font-size: 24px;
+   font-size: var(--font-size2);
    font-weight: bold;
    text-align: left;
    margin-bottom: 10px;}
